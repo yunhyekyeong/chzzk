@@ -556,6 +556,17 @@
   flex: none;
 }
 
+.sc-recommend .streamer-img figure {
+  width: 100%;
+  height: 100%;
+}
+
+.sc-recommend .streamer-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .sc-recommend .recomm-info {
   flex: 1 1;
   color: #9da5b6;
@@ -791,6 +802,8 @@
 }
 .sc-news .news-streamer .profile img {
   border-radius: inherit;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .sc-news .news-streamer .profile-txt {

@@ -153,12 +153,32 @@
 @font-face {
     font-family: 'Sandoll Nemony2';
     font-weight: 400;
+    src: url('../font/SDNemony2dBasicBd40.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Sandoll Nemony2';
+    font-weight: 400;
     src: url('../font/SDNemony2dBasicBd38.woff2') format("woff2");
 }
 @font-face {
     font-family: 'Sandoll Nemony2';
     font-weight: 400;
     src: url('../font/SDNemony2dBasicBd36.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Sandoll Nemony2';
+    font-weight: 400;
+    src: url('../font/SDNemony2dBasicBd35.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Sandoll Nemony2';
+    font-weight: 400;
+    src: url('../font/SDNemony2dBasicBd33.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Sandoll Nemony2';
+    font-weight: 400;
+    src: url('../font/SDNemony2dBasicBd27.woff2') format("woff2");
 }
 @font-face {
     font-family: 'Sandoll Nemony2';
@@ -184,6 +204,16 @@
     font-family: 'Sandoll Nemony2';
     font-weight: 400;
     src: url('../font/SDNemony2dBasicBd20.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Sandoll Nemony2';
+    font-weight: 400;
+    src: url('../font/SDNemony2dBasicBd19.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Sandoll Nemony2';
+    font-weight: 400;
+    src: url('../font/SDNemony2dBasicBd17.woff2') format("woff2");
 }
 @font-face {
     font-family: 'Sandoll Nemony2';

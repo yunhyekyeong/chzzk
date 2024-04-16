@@ -1,4 +1,4 @@
-fetch("../../../data.json")
+fetch("../../data.json")
   .then((res) => res.json())
   .then((json) => {
     const channelsData = json.content.recommendationChannels;
@@ -129,13 +129,16 @@ fetch("../../../data.json")
     liveContent(liveData[0]);
 
     function liveVideoHtml(data) {
-      return `<source src="blob:https://chzzk.naver.com/${data}">`;
+      const videoPlayer = document.querySelector(".live-video video");
+      videoPlayer.src = `https://a01-g-naver-vod.akamaized.net/glive/c/read/v2/VOD_ALPHA/${data.livePlaybackJson}`;
+      videoPlayer.load(); // 비디오를 다시 로드합니다.
+      videoPlayer.play(); // 필요할 경우 자동 재생
     }
 
     function liveStreamerProfiHtml(data) {
       let streamerImg =
         data.channel.channelImageUrl || "./assets/img/anonymous.png";
-      return `<a href="${data.channel.channelId}">
+      return `<a href="https://chzzk.naver.com/${data.channel.channelId}">
                 <span class="blind">스트리머 채널로 이동</span>
                 <figure class="profile-line">
                   <img src="${streamerImg}" alt="${data.channel.channelName} 프로필 이미지">
@@ -473,4 +476,17 @@ new Swiper(".news-slide", {
       document.querySelector(".sc-news .btn-next").classList.remove("hidden");
     },
   },
+});
+
+const navItems = document.querySelectorAll(".side-bar .navigator .nav-item");
+
+// 각 요소에 대해 이벤트 리스너를 추가합니다.
+navItems.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    document.querySelector(".side-bar").classList.add("expand");
+  });
+
+  item.addEventListener("mouseout", () => {
+    document.querySelector(".side-bar").classList.remove("expand");
+  });
 });

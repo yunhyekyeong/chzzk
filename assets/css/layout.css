@@ -94,14 +94,17 @@
   top: 0;
   left: 0;
   z-index: 998;
-  width: 240px;
   height: 100%;
-  overflow-y: auto;
+  overflow: auto;
   scrollbar-width: none;
+}
+.side-bar.expand {
+  margin-right: -200px;
+  padding-right: 200px;
 }
 
 .side-bar .container {
-  width: 100%;
+  width: 240px;
   padding: 65px 18px 40px;
 }
 .side-bar .inner {
