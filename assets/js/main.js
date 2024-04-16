@@ -477,16 +477,3 @@ new Swiper(".news-slide", {
     },
   },
 });
-
-const navItems = document.querySelectorAll(".side-bar .navigator .nav-item");
-
-// 각 요소에 대해 이벤트 리스너를 추가합니다.
-navItems.forEach((item) => {
-  item.addEventListener("mouseover", () => {
-    document.querySelector(".side-bar").classList.add("expand");
-  });
-
-  item.addEventListener("mouseout", () => {
-    document.querySelector(".side-bar").classList.remove("expand");
-  });
-});
