@@ -1,0 +1,186 @@
+/* font-family: "Sandoll Nemony2"; */
+:root {
+  --blightred: #ff5454;
+  --black: #141517;
+  --lightgray: #c9cedc;
+  --brightgray: #dfe2ea;
+  --deepgray: #747a87;
+  --darkgray: #303133;
+  --brightgreen: #00ffa3;
+  --mutegreen: #027f80;
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  margin: -1px;
+}
+
+.ico-desc {
+  position: absolute;
+  display: none;
+  padding: 5px 9px;
+  border-radius: 6px;
+  font-size: 12px;
+  letter-spacing: -0.3px;
+  line-height: 14px;
+  white-space: nowrap;
+  background-color: #2e3033;
+  color: #dfe2ea;
+}
+
+.live-badge {
+  display: inline-block;
+  background-color: #f00;
+}
+.live-badge svg {
+  width: 100%;
+}
+
+.profile-line {
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(var(--black), var(--black)),
+    linear-gradient(180deg, var(--brightgreen), var(--mutegreen));
+  background-origin: border-box;
+  border-radius: 100%;
+  flex-shrink: 0;
+}
+.profile-line img {
+  background-color: hsla(0, 0%, 100%, 0.06);
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.name {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  font-family: "Sandoll Nemony2", "Apple SD Gothic NEO", "Helvetica Neue",
+    Helvetica, 나눔고딕, NanumGothic, "Malgun Gothic", "맑은 고딕", 굴림, gulim,
+    새굴림, "noto sans", 돋움, Dotum, sans-serif;
+  overflow: hidden;
+}
+
+.icon-official {
+  display: inline-block;
+  background: url(../img/icon-official.png) no-repeat 50% / cover;
+}
+
+.btn-more {
+  display: flex;
+  align-items: center;
+  height: 29px;
+  margin: 5px auto 15px;
+  padding: 0px 13px 0px 19px;
+  line-height: 16px;
+  font-size: 10px;
+  border-radius: 15px;
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  color: #c9cedc;
+}
+
+.sc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sc-header h2{
+  font-size: 19px;
+  line-height: 23px;
+  color: #fff;
+}
+.sc-header a {
+  font-size: 15px;
+  line-height: 16px;
+  margin: -5px -5px -5px auto;
+  padding: 5px;
+  color: #c9cedc;
+}
+
+
+.side-bar .navigator .nav-item .text .cate,
+.sc-news .news-streamer .name,
+.sc-banner .bann-item .btn-move,
+.sc-banner .bann-item .desc,
+.name > span,
+.category {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.sc-category .tit,
+.sc-recommend .recomm-info .tit,
+.sc-live .live-header .tit,
+.sc-banner .bann-item .tit,
+.side-bar .navigator .nav-item .text .tit {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sc-banner .bann-item .desc,
+.sc-banner .bann-item .btn-move,
+.sc-banner .bann-item .tit {
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+.category,
+.sc-live .inner,
+.side-bar .navigator .nav-item .text {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.side-bar .navigator .nav-tit,
+.sc-recommend .recomm-info .category,
+.sc-header,
+.sc-live .streamer .category,
+.sc-live .live-header .viewer,
+.side-bar .servi-list,
+.btn-more,
+.side-bar .navigator .btn-fold,
+.side-bar .service .servi-header {
+  font-family: "Sandoll Nemony2", "Apple SD Gothic NEO", "Helvetica Neue",
+    Helvetica, 나눔고딕, NanumGothic, "Malgun Gothic", "맑은 고딕", 굴림, gulim,
+    새굴림, "noto sans", 돋움, Dotum, sans-serif;
+}
+
+.sc-live .streamer .category,
+.sc-live .streamer .profile-line,
+.sc-live .live-footer,
+.sc-live .live-header {
+  animation: fadein 0.5s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sc-recommend .streamer-img::after,
+.sc-recommend .thumbnail::after,
+.sc-live .btn-tab::after,
+.sc-live .inner::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid hsla(0, 0%, 100%, 0.06);
+  border-radius: inherit;
+  content: "";
+}
