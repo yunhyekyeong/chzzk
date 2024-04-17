@@ -1,4 +1,4 @@
-fetch("../data/data.json")
+fetch("../../assets/data/data.json")
   .then((res) => res.json())
   .then((json) => {
     const channelsData = json.content.recommendationChannels;
