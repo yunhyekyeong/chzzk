@@ -1,4 +1,4 @@
-/* font-family: "Sandoll Nemony2"; */
+
 :root {
   --blightred: #ff5454;
   --black: #141517;
@@ -58,9 +58,8 @@
   display: inline-flex;
   align-items: center;
   max-width: 100%;
-  font-family: "Sandoll Nemony2", "Apple SD Gothic NEO", "Helvetica Neue",
-    Helvetica, 나눔고딕, NanumGothic, "Malgun Gothic", "맑은 고딕", 굴림, gulim,
-    새굴림, "noto sans", 돋움, Dotum, sans-serif;
+  font-family: 'SBAggro';
+  font-weight: 500;
   overflow: hidden;
 }
 
@@ -151,9 +150,8 @@
 .btn-more,
 .side-bar .navigator .btn-fold,
 .side-bar .service .servi-header {
-  font-family: "Sandoll Nemony2", "Apple SD Gothic NEO", "Helvetica Neue",
-    Helvetica, 나눔고딕, NanumGothic, "Malgun Gothic", "맑은 고딕", 굴림, gulim,
-    새굴림, "noto sans", 돋움, Dotum, sans-serif;
+  font-family: 'SBAggro';
+  font-weight: 500;
 }
 
 .sc-live .streamer .category,
