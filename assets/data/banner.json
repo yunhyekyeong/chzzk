@@ -1,0 +1,30 @@
+{
+  "code": 200,
+  "message": null,
+  "content": {
+    "banners": [
+      {
+        "position": "HOME_SCHEDULE",
+        "bannerNo": 104,
+        "imageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMjNfMTgz/MDAxNzA4Njg0NzM1Mjk1.t5goyuI6puSQEarrcqTB29S3cRXXEfqEADjeGYjGj3Ig.dnHe7pZqK52H10s_-qt6mgog2hCC3MScJaonGYrQ1ggg.PNG/%EC%B9%98%EC%A7%80%EC%A7%81%EC%98%A4%ED%94%88%EB%B2%A0%ED%83%80_266x180_2.png",
+        "backgroundColor": null,
+        "landingUrl": "https://game.naver.com/lounge/chzzk/board/detail/3643126",
+        "newWindow": true,
+        "title": "치지직 오픈베타를 만나보세요.",
+        "subCopy": "구독, 영상후원, 탐색페이지까지!",
+        "scheduledDate": "공지 보러가기"
+      },
+      {
+        "position": "HOME_SCHEDULE",
+        "bannerNo": 39,
+        "imageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMTlfMjk5/MDAxNzA4MzI1MjUyNDg3.BCwq57U7lDtWwhe3HfhK9kQLRpKkz1TOcuslYYJzUUog.OFvlnloVY8t894LeCSup0c3kY-npu4PqONZ3hq0kMH4g.PNG/00.png",
+        "backgroundColor": null,
+        "landingUrl": "https://game.naver.com/lounge/chzzk/board/detail/3643119",
+        "newWindow": true,
+        "title": "파트너/프로 등급 동시송출 가능",
+        "subCopy": "서드파티도 OK!",
+        "scheduledDate": "공지 보러가기"
+      }
+    ]
+  }
+}

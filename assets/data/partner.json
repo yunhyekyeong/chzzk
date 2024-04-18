@@ -1,0 +1,188 @@
+{
+  "code": 200,
+  "message": null,
+  "content": {
+    "streamerPartners": [
+      {
+        "channelId": "1906dd57f578c255feca54700bcccfc9",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAxMzBfMjkz/MDAxNzA2NTgyMzA5Nzg3.u_iHpzDvsF2QBvzTEgHgG0TcsqekEmRL9e-ugp75JfUg.M5HgXk_KCcP1sxoz1UdWl-dnK1g27u9WE5-8U2oGeaMg.JPEG/IMG_0591.jpeg",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAxMzBfMjkz/MDAxNzA2NTgyMzA5Nzg3.u_iHpzDvsF2QBvzTEgHgG0TcsqekEmRL9e-ugp75JfUg.M5HgXk_KCcP1sxoz1UdWl-dnK1g27u9WE5-8U2oGeaMg.JPEG/IMG_0591.jpeg",
+        "originalNickname": "똘똘똘이",
+        "channelName": "똘똘똘이",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "b5da9cbcab300065236b4309ecaf19b7",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjBfMTA0/MDAxNzAzMDE3NjA2Mzgy.NtzeThu7J0eChZAgU2VwPFS4oxWj467Wyj1FjRJX6yYg.pVBlEC1s03BGzAZnEqwgVcG8581kPBARwNH6oSufZM4g.PNG/0E9B22C1-6EFB-4C38-A77A-CC5938A5E0E0-1703017606.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjBfMTA0/MDAxNzAzMDE3NjA2Mzgy.NtzeThu7J0eChZAgU2VwPFS4oxWj467Wyj1FjRJX6yYg.pVBlEC1s03BGzAZnEqwgVcG8581kPBARwNH6oSufZM4g.PNG/0E9B22C1-6EFB-4C38-A77A-CC5938A5E0E0-1703017606.png",
+        "originalNickname": "스나랑",
+        "channelName": "스나랑",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "f39c3d74e33a81ab3080356b91bb8de5",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMTQg/MDAxNzAyOTk0MDY3MDk4.AYCG30jnoir18ozbTkq9465vMk6hTGAJphCJrz9Qo2sg.0TTspJJqQV5hJEutSeNt6vdX3Mc0XcFzpYFY8NNWkp4g.PNG/KakaoTalk_20231219_183937840.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMTQg/MDAxNzAyOTk0MDY3MDk4.AYCG30jnoir18ozbTkq9465vMk6hTGAJphCJrz9Qo2sg.0TTspJJqQV5hJEutSeNt6vdX3Mc0XcFzpYFY8NNWkp4g.PNG/KakaoTalk_20231219_183937840.png",
+        "originalNickname": "포셔",
+        "channelName": "포셔",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "dc7fb0d085cfbbe90e11836e3b85b784",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMjQ1/MDAxNzAyOTgwNjcwNTIy.faEou_MC8-KuQL9F5TxM7Gx2ZZyMJHaqCDO7u5Uzo04g.78zfZixSbb5QUvZ2aQwLAmuhE1S-Mh0_WIfyTE4EOnEg.PNG/KakaoTalk_20231111_012204986.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMjQ1/MDAxNzAyOTgwNjcwNTIy.faEou_MC8-KuQL9F5TxM7Gx2ZZyMJHaqCDO7u5Uzo04g.78zfZixSbb5QUvZ2aQwLAmuhE1S-Mh0_WIfyTE4EOnEg.PNG/KakaoTalk_20231111_012204986.png",
+        "originalNickname": "강소연",
+        "channelName": "강소연",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "d6fc3283fe0938bca8d65093e4c2bb94",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDJfMTU3/MDAxNzEyMDY1ODUwNzkw.IEslF1SR6AU1XbJIRM3yJsLr9hiMkbROhbGjX1uSy7Ug.h2d9dc1xqjcX_bxO-YVHfjRsG2na1X5DoZIbTocpc6Ig.PNG/200708_1.png?type=f120_120_na",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDJfMTU3/MDAxNzEyMDY1ODUwNzkw.IEslF1SR6AU1XbJIRM3yJsLr9hiMkbROhbGjX1uSy7Ug.h2d9dc1xqjcX_bxO-YVHfjRsG2na1X5DoZIbTocpc6Ig.PNG/200708_1.png?type=f120_120_na",
+        "originalNickname": "실프",
+        "channelName": "실프",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "b044e3a3b9259246bc92e863e7d3f3b8",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDZfNjAg/MDAxNzEyMzQzMzQ1MDAx.vR4Fb0RcghqBzPODj1HtiZ5z7c62a3vRE7Zh5-KEw54g.LH8dMyIvwEVqzr6B8p83DYUXLSc6zvNw7UPM0J9RJAYg.PNG/clip20230517_2035_04_891-1_%282%29.png?type=f120_120_na",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDZfNjAg/MDAxNzEyMzQzMzQ1MDAx.vR4Fb0RcghqBzPODj1HtiZ5z7c62a3vRE7Zh5-KEw54g.LH8dMyIvwEVqzr6B8p83DYUXLSc6zvNw7UPM0J9RJAYg.PNG/clip20230517_2035_04_891-1_%282%29.png?type=f120_120_na",
+        "originalNickname": "시라유키 히나",
+        "channelName": "시라유키 히나",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "4515b179f86b67b4981e16190817c580",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDNfMjEz/MDAxNzEyMDk5NzM4MzQ5.6tyP3WAevXlFLV14kmYICOwpHMxMEGByj3dN4JjnW80g.On59xEh9M0kcv1WkcEVkkZD3OOoaZNrME_w2foWIfLsg.PNG/F682B80A-240C-4173-BD87-070C952C820F-1712099738.png?type=f120_120_na",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDNfMjEz/MDAxNzEyMDk5NzM4MzQ5.6tyP3WAevXlFLV14kmYICOwpHMxMEGByj3dN4JjnW80g.On59xEh9M0kcv1WkcEVkkZD3OOoaZNrME_w2foWIfLsg.PNG/F682B80A-240C-4173-BD87-070C952C820F-1712099738.png?type=f120_120_na",
+        "originalNickname": "네네코 마시로",
+        "channelName": "네네코 마시로",
+        "verifiedMark": true,
+        "openLive": false
+      },
+      {
+        "channelId": "1161eb13d304f943542d0c8640928544",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMSAg/MDAxNzAyOTYzMjE2MTc2.gyAv1sSBGpOWho2-IZknnEYZyaPvvqrGIp5sn8eHu78g.x5zS53vXEVkqEzsUReQSGCZkSSZdGCtAstnbFZZWCz8g.PNG/PNG.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMSAg/MDAxNzAyOTYzMjE2MTc2.gyAv1sSBGpOWho2-IZknnEYZyaPvvqrGIp5sn8eHu78g.x5zS53vXEVkqEzsUReQSGCZkSSZdGCtAstnbFZZWCz8g.PNG/PNG.png",
+        "originalNickname": "아빠킹",
+        "channelName": "아빠킹",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "952e7d21b36d75675894f97e4975bf9f",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjFfMTU3/MDAxNzAzMTM2NzU0NDkx.djYvk2A1pOavxTdXepVytbD2dLHQfWMEMJUhw_BeHdMg.UOqNn-u763RjYH16fS_6jx7gkh0Mz5joUtAC5XpqX3Ug.JPEG/31f7ba547c205e32876aaad691ffb058.jpg",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjFfMTU3/MDAxNzAzMTM2NzU0NDkx.djYvk2A1pOavxTdXepVytbD2dLHQfWMEMJUhw_BeHdMg.UOqNn-u763RjYH16fS_6jx7gkh0Mz5joUtAC5XpqX3Ug.JPEG/31f7ba547c205e32876aaad691ffb058.jpg",
+        "originalNickname": "이선생",
+        "channelName": "이선생",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "4325b1d5bbc321fad3042306646e2e50",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDNfMTM1/MDAxNzEyMDkyMzgxMjEz.EvnT25hUyEBFLrjuklk34p8oOeL9rWjbAGdUvYHp9Gcg.u-1-_0IUl8AYP9VVvGHJxb93wIASF2f1g7w1pn7Mztkg.JPEG/21.jpg?type=f120_120_na",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDNfMTM1/MDAxNzEyMDkyMzgxMjEz.EvnT25hUyEBFLrjuklk34p8oOeL9rWjbAGdUvYHp9Gcg.u-1-_0IUl8AYP9VVvGHJxb93wIASF2f1g7w1pn7Mztkg.JPEG/21.jpg?type=f120_120_na",
+        "originalNickname": "아카네 리제",
+        "channelName": "아카네 리제",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "089185efc29a8fbe14ea294dc85f9661",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMjE0/MDAxNzAyOTY2ODg2ODEy.ozHKWGbDqCCHRk3DcFY10DNJGE-v_3l-GZrqw_PKYAIg.TmuPla4PHD9B7usVf-oJPYN71QfErkOqsfdYbrGxQrog.JPEG/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jpg",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMjE0/MDAxNzAyOTY2ODg2ODEy.ozHKWGbDqCCHRk3DcFY10DNJGE-v_3l-GZrqw_PKYAIg.TmuPla4PHD9B7usVf-oJPYN71QfErkOqsfdYbrGxQrog.JPEG/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jpg",
+        "originalNickname": "소풍왔니",
+        "channelName": "소풍왔니",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "0d027498b18371674fac3ed17247e6b8",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAzMjVfMjgg/MDAxNzExMzcwNDU5Mzcw.teudJR7dDMMV6O4s_EP4GMVuwzSpi_jTBqYgK5eJzaYg._pMAPsWPVPDLb67755SgXwT_Cutzm33clMOLIiJX1Kwg.JPEG/RTC.jpg?type=f120_120_na",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAzMjVfMjgg/MDAxNzExMzcwNDU5Mzcw.teudJR7dDMMV6O4s_EP4GMVuwzSpi_jTBqYgK5eJzaYg._pMAPsWPVPDLb67755SgXwT_Cutzm33clMOLIiJX1Kwg.JPEG/RTC.jpg?type=f120_120_na",
+        "originalNickname": "옥냥이",
+        "channelName": "옥냥이 RoofTopCAT",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "2d4aa2f79b0a397d032c479ef1b37a67",
+        "profileImageUrl": null,
+        "channelImageUrl": null,
+        "originalNickname": "후추",
+        "channelName": "진짜후추",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "5f44570b82fb82d4814ef9502cf6401a",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjdfNTAg/MDAxNzAzNjU0NTMxNTkx.HAVH1WUd3Q1rfhl7dAg1bnb9R9KUWackhYh7hhkrbjYg.oLpmS-zX7SyryUkFTpxeeuaTPYh31mVdHLaWohaQGBYg.PNG/%EB%B9%84%EB%B6%80.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjdfNTAg/MDAxNzAzNjU0NTMxNTkx.HAVH1WUd3Q1rfhl7dAg1bnb9R9KUWackhYh7hhkrbjYg.oLpmS-zX7SyryUkFTpxeeuaTPYh31mVdHLaWohaQGBYg.PNG/%EB%B9%84%EB%B6%80.png",
+        "originalNickname": "삐부",
+        "channelName": "삐부",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "a6c4ddb09cdb160478996007bff35296",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDJfMjcz/MDAxNzEyMDY0MDExNDY0.BNCTF3mwb-b2Vun5RE5mNgC0uDADK6KTI2DOYQ7CsXog.oVFu2Cyml9C_1ECg9c8ebCZTPgU02okYfY5UVjE8jEgg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-04-02_222003.png?type=f120_120_na",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDJfMjcz/MDAxNzEyMDY0MDExNDY0.BNCTF3mwb-b2Vun5RE5mNgC0uDADK6KTI2DOYQ7CsXog.oVFu2Cyml9C_1ECg9c8ebCZTPgU02okYfY5UVjE8jEgg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-04-02_222003.png?type=f120_120_na",
+        "originalNickname": "아라하시 타비",
+        "channelName": "아라하시 타비",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "a9ab391cdd3faef4ca2ee782e96e5c59",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMTdfMTkx/MDAxNzA4MTIxNjYzNjgx.Oqq8tBtB3cFqIvSRMWgtE9ka-Qiv0XLTHC_DQBDiNmIg.XPh7tfHC7KqXcx5BPZLm8ezZZvLeULEF0hbfT_okV5Mg.PNG/%ED%94%84%EB%A1%9C%ED%95%84.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMTdfMTkx/MDAxNzA4MTIxNjYzNjgx.Oqq8tBtB3cFqIvSRMWgtE9ka-Qiv0XLTHC_DQBDiNmIg.XPh7tfHC7KqXcx5BPZLm8ezZZvLeULEF0hbfT_okV5Mg.PNG/%ED%94%84%EB%A1%9C%ED%95%84.png",
+        "originalNickname": "김나성",
+        "channelName": "김나성",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "0de024a1ca4a64f1a23a95ff9eeee5a5",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjFfMjE4/MDAxNzAzMTQwNTQ4NDEz.l-4zi6piSfpGzSTZNq_V7192BUVrOpkHUZsqIDW8lLgg.cqAuLaz96FEuvBTNQF3NovipkisvMs2As5G5MxjaZTcg.PNG/1%EC%9E%84%EB%82%98%EC%9D%80-2.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjFfMjE4/MDAxNzAzMTQwNTQ4NDEz.l-4zi6piSfpGzSTZNq_V7192BUVrOpkHUZsqIDW8lLgg.cqAuLaz96FEuvBTNQF3NovipkisvMs2As5G5MxjaZTcg.PNG/1%EC%9E%84%EB%82%98%EC%9D%80-2.png",
+        "originalNickname": "임나은",
+        "channelName": "임나은",
+        "verifiedMark": false,
+        "openLive": false
+      },
+      {
+        "channelId": "554e99695decc451d57788b1fd5d5c07",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMTU3/MDAxNzAyOTcwMjUyNjMw.Z2tUcFtUCGZQ6au7-J4Y3AdQxZfvUflu4cGHrlmxPjog.Oiu5AzVJUchsNRrQhiZ3ic4n1fq5qlMGKoE7wCAvZDMg.JPEG/KakaoTalk_20201211_220843154.jpg",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMTU3/MDAxNzAyOTcwMjUyNjMw.Z2tUcFtUCGZQ6au7-J4Y3AdQxZfvUflu4cGHrlmxPjog.Oiu5AzVJUchsNRrQhiZ3ic4n1fq5qlMGKoE7wCAvZDMg.JPEG/KakaoTalk_20201211_220843154.jpg",
+        "originalNickname": "배돈",
+        "channelName": "배돈",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "17aa057a8248b53affe30512a91481f5",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMDdfMjA5/MDAxNzAxODc1Mzk0Njgz.4jdg2LkiZM_r-GCnzaLv89BkTh-sWLdYjuYcf_t3IP4g.KhoU7pv7Vk5K4QPKX361Cv7VblSE4LXV5NwjgWETEGkg.PNG/%ED%94%84%EC%82%AC.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMDdfMjA5/MDAxNzAxODc1Mzk0Njgz.4jdg2LkiZM_r-GCnzaLv89BkTh-sWLdYjuYcf_t3IP4g.KhoU7pv7Vk5K4QPKX361Cv7VblSE4LXV5NwjgWETEGkg.PNG/%ED%94%84%EC%82%AC.png",
+        "originalNickname": "김도",
+        "channelName": "김도",
+        "verifiedMark": true,
+        "openLive": true
+      },
+      {
+        "channelId": "8b3e8e3a13201cff0836c69cfab62f45",
+        "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjBfODMg/MDAxNzAzMDU2MDE2MDU3.vfDZPNp8d4Lv191HrM6CPV6HRGCqthiKusM21rXQQSIg.HKzaJikdhNVqDTWIHGL7pCVSfZq80FuuCEqXx17VHMgg.PNG/i8271963014.png",
+        "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjBfODMg/MDAxNzAzMDU2MDE2MDU3.vfDZPNp8d4Lv191HrM6CPV6HRGCqthiKusM21rXQQSIg.HKzaJikdhNVqDTWIHGL7pCVSfZq80FuuCEqXx17VHMgg.PNG/i8271963014.png",
+        "originalNickname": "플레임",
+        "channelName": "플레임",
+        "verifiedMark": true,
+        "openLive": true
+      }
+    ]
+  }
+}

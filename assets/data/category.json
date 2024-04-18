@@ -1,0 +1,98 @@
+{
+  "code": 200,
+  "message": null,
+  "content": {
+    "categorys": [
+      {
+        "categoryType": "ETC",
+        "categoryId": "talk",
+        "categoryValue": "talk",
+        "posterImageUrl": "https://ssl.pstatic.net/static/nng/glive/icon/category_poster_talk.png",
+        "openLiveCount": 267,
+        "concurrentUserCount": 18730,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "A_Difficult_Game_About_Climbing",
+        "categoryValue": "어 디피컬트 게임 어바웃 클라이밍",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAzMDZfMTc0/MDAxNzA5NzE0Njk1MDc3.Lygej8UgzNySJ0q5Hb6JWzcsoNztEHtGPkKJDsy69csg.7Z5LdIRCf-fG_B9I_IUoR4WD9QyeecghoJaFCSkRANEg.PNG/10.png",
+        "openLiveCount": 21,
+        "concurrentUserCount": 10710,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "Lost_Ark",
+        "categoryValue": "로스트아크",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMjdfMjkz/MDAxNzA5MDA3NjYyNzIz.eWlTbBIGcELR9xUoGEOdTZoCdDj9lX-xd7YT_vRgp6Ig.kaWgTDIJSbuA1cNnezQpZH8AmWsor2-m-yzYsah-u_Ug.PNG/SGR%EC%B9%98%EC%A7%80%EC%A7%81%ED%94%84%EB%A1%9C%ED%95%84_300x400.png",
+        "openLiveCount": 142,
+        "concurrentUserCount": 6020,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "Black_Survival_Eternal_Return",
+        "categoryValue": "이터널 리턴",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMjBfMTE3/MDAxNzA4NDMwMDc5MDM1.EsE24puTuH3OBS7xYIsyI7HPMIdsGQA9LCe0RrvSVVAg.7Wc4vQ68KBGqU2-3KyOF38qHBve6CgKt4cH_X-8Apfsg.PNG/%EB%84%A4%EC%9D%B4%EB%B2%84_%EC%B9%98%EC%A7%80%EC%A7%81__300x400.png",
+        "openLiveCount": 80,
+        "concurrentUserCount": 2547,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "HELLDIVERS2",
+        "categoryValue": "헬다이버즈 2",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMjZfMjYw/MDAxNzA4OTMzNjM2ODAy.2A10LY05aAIupnXrGc42U27edoGMSc8HwvA9L2WA_bYg.-9CkC1NZd5u8imJCUnts3_8n0qK-JjxSPROTZF-5Ppwg.PNG/%ED%97%AC%EB%8B%A4%EC%9D%B4%EB%B2%84%EC%A6%88.png",
+        "openLiveCount": 37,
+        "concurrentUserCount": 2465,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "Apollo_Justice_Ace_Attorney_Trilogy",
+        "categoryValue": "역전재판 456 오도로키 셀렉션",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMDhfMjMw/MDAxNzA3Mzg0MDg4NzE2.lYKSIym2xZmgt4oSg9ezExVatCiQtQg-9XNCcc8vAsUg.hvM3Ic7HkeE3gFrOpowCeNckH8YZFJOBfjbvABtdTrog.PNG/%EC%97%AD%EC%A0%84%EC%9E%AC%ED%8C%90-456-%EC%98%A4%EB%8F%84%EB%A1%9C%ED%82%A4-%EC%85%80%EB%A0%89%EC%85%98-300400.png",
+        "openLiveCount": 4,
+        "concurrentUserCount": 2440,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "TEKKEN8",
+        "categoryValue": "철권 8",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMTRfMTU4/MDAxNzA3ODkzMDc4NTIz.g77Ro7wHkfcj2Ry3gXNFQv9eEDiz4e4AX6Ej3omVP1cg.OOpansLYkTGojARmmM5rFGzYYIv8eN4NyVTgu36P8uUg.JPEG/234234324.jpg",
+        "openLiveCount": 27,
+        "concurrentUserCount": 2253,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "StarCraft_Remastered",
+        "categoryValue": "스타크래프트 : 리마스터",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTJfMTgy/MDAxNzAyMzY2NjIwMjEw.HLxVSv2OAMUhpxDfXmPlaUAMH22v7Ssd10hCHyc_mZkg.-uWjWmavT7cCtbgZyZWjPI_9FAH4DK70y4syz1km8s4g.JPEG/270.%EC%8A%A4%ED%83%80%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8_%EB%A6%AC%EB%A7%88%EC%8A%A4%ED%84%B0_%EC%99%84%EC%84%B1%EB%B3%B8_%EC%9D%B4%EC%9D%80%EC%A0%95.jpg",
+        "openLiveCount": 28,
+        "concurrentUserCount": 2246,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "Unicorn_Overlord",
+        "categoryValue": "유니콘 오버로드",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAxMjZfMjg2/MDAxNzA2MjU0NTYzMjUz.IGUcxav-6BlZjUWNqlrVnSKCuJloaLvZashQVEXPc4Eg.x-6VEC9ttfEOY8W1HuyZOG9wGNEzrlU96hdl7VEdHgEg.PNG/9.png",
+        "openLiveCount": 23,
+        "concurrentUserCount": 2113,
+        "existLounge": false
+      },
+      {
+        "categoryType": "GAME",
+        "categoryId": "League_of_Legends",
+        "categoryValue": "리그 오브 레전드",
+        "posterImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTFfMjI5/MDAxNzAyMjU5Njk2ODQ5.bQMe6kUHvW9G6o4HkLkMXVZNJTuzRDv6wt9LIXJibP0g.fDL9ksaxRv6H-8WlnhZPRKi7uIz5yRfPAJWDF9_Z9YUg.JPEG/2.%EB%A6%AC%EA%B7%B8%EC%98%A4%EB%B8%8C%EB%A0%88%EC%A0%84%EB%93%9C_%EC%99%84%EC%84%B1%EB%B3%B8_%EC%9D%B4%EC%9D%80%EC%A0%95.jpg",
+        "openLiveCount": 237,
+        "concurrentUserCount": 1657,
+        "existLounge": false
+      }
+    ]
+  }
+}

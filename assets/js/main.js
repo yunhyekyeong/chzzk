@@ -1,17 +1,10 @@
-fetch("./assets/data/data.json")
-  .then((res) => res.json())
-  .then((json) => {
-    const channelsData = json.content.recommendationChannels;
-    const bannerData = json.content.banners;
-    const liveData = json.content.topRecommendationLiveList;
-    const partnerData = json.content.streamerPartners.slice(0, 17);
-    const recommendData = json.content.streamingLiveList.slice(0, 50);
-    const categoryData = json.content.categorys.slice(0, 8);
-    const newsData = json.content.lastComments;
 
-    // 추천채널 데이터 처리
+fetch("./assets/data/recommend.json")
+  .then(res => res.json())
+  .then(json => {
+    const recommendData = json.content.recommendationChannels;
     let navItemHtml = ``;
-    channelsData.forEach((el) => {
+    recommendData.forEach((el) => {
       let officialIcon = el.channel.verifiedMark
         ? `<i class="icon-official"><span class="blind">인증 마크</span></i>`
         : ``;
@@ -73,7 +66,18 @@ fetch("./assets/data/data.json")
       navMoreState(!isExpanded);
     });
     navInit();
+  })
+  .catch((error) => console.error("Error loading recommend.json:", error))
+;
 
+
+
+
+
+fetch("./assets/data/banner.json")
+  .then((res) => res.json())
+  .then((json) => {
+    const bannerData = json.content.banners;
     // 배너 데이터 처리
     let bannerItemHtml = ``;
     bannerData.forEach((el) => {
@@ -91,11 +95,21 @@ fetch("./assets/data/data.json")
             </li>`;
     });
     document.querySelector(".bann-list").innerHTML = bannerItemHtml;
+  })
+  .catch((error) => console.error("Error loading banner.json:", error))
+;
 
-    // 라이브베너 데이터 처리
-    let liveTabHtml = ``;
-    liveData.forEach((el) => {
-      liveTabHtml += `<li class="live-item" role="none">
+
+
+
+
+fetch("./assets/data/topRecommend.json")
+  .then((res) => res.json())
+  .then((json) => {
+    const topRecommendData = json.content.topRecommendationLiveList;
+    let topRecommendHtml = ``;
+    topRecommendData.forEach((el) => {
+      topRecommendHtml += `<li class="live-item" role="none">
                     <button type="button" role="tab" aria-selected="false" class="btn-tab">
                       <div class="thumbnail" style="background-image: url('${el.liveImageUrl}');">
                         <span class="blind">${el.liveTitle}</span>
@@ -103,7 +117,7 @@ fetch("./assets/data/data.json")
                     </button>
                   </li>`;
     });
-    document.querySelector(".live-list").innerHTML = liveTabHtml;
+    document.querySelector(".live-list").innerHTML = topRecommendHtml;
 
     function liveContent(data) {
       const viewCount = document.querySelector(
@@ -126,13 +140,13 @@ fetch("./assets/data/data.json")
       document.querySelector(".streamer-profi").innerHTML = streamerProfiHtml;
       document.querySelector(".streamer-name").innerHTML = streamerNameHtml;
     }
-    liveContent(liveData[0]);
+    liveContent(topRecommendData[0]);
 
     function liveVideoHtml(data) {
       const videoPlayer = document.querySelector(".live-video video");
-      videoPlayer.src = `https://a01-g-naver-vod.akamaized.net/glive/c/read/v2/VOD_ALPHA/${data.livePlaybackJson}`;
-      videoPlayer.load(); // 비디오를 다시 로드합니다.
-      videoPlayer.play(); // 필요할 경우 자동 재생
+      videoPlayer.src = data.livePlaybackJson;
+      videoPlayer.load();
+      videoPlayer.play();
     }
 
     function liveStreamerProfiHtml(data) {
@@ -166,12 +180,22 @@ fetch("./assets/data/data.json")
       item.addEventListener("click", function () {
         tabBtn.forEach((tab) => tab.setAttribute("aria-selected", "false"));
         this.setAttribute("aria-selected", "true");
-        const selectedData = liveData[index];
+        const selectedData = topRecommendData[index];
         liveContent(selectedData);
       });
     });
+  })
+  .catch((error) => console.error("Error loading topRecommend.json:", error))
+;
 
-    // 파트너 스트리머 데이처 처리
+
+
+
+
+fetch("./assets/data/partner.json")
+  .then((res) => res.json())
+  .then((json) => {
+    const partnerData = json.content.streamerPartners.slice(0, 17);
     let partnerItemHtml = ``;
     partnerData.forEach((el) => {
       let liveBadge = el.openLive
@@ -190,7 +214,7 @@ fetch("./assets/data/data.json")
         : ``;
       let profileImg = el.profileImageUrl || "./assets/img/anonymous.png";
 
-      partnerItemHtml += ` <li class="partner-item">
+      partnerItemHtml += `<li class="partner-item">
               <a href="https://chzzk.naver.com/live/${el.channelId}">
                 <div class="partner-img">
                   <figure>
@@ -214,10 +238,20 @@ fetch("./assets/data/data.json")
         item.classList.add("off");
       }
     });
+  })
+  .catch((error) => console.error("Error loading partner.json:", error))
+;
 
-    // 추천 데이터 처리
+
+
+
+
+fetch("./assets/data/liveList.json")
+  .then((res) => res.json())
+  .then((json) => {
+    const liveListData = json.content.streamingLiveList.slice(0, 50);
     let recomItemHtml = ``;
-    recommendData.forEach((el) => {
+    liveListData.forEach((el) => {
       let officialIcon = el.channel.verifiedMark
         ? `<i class="icon-official"><span class="blind">인증 마크</span></i>`
         : ``;
@@ -307,8 +341,18 @@ fetch("./assets/data/data.json")
       recomMoreState(!isExpanded);
     });
     recomInit();
+  })
+  .catch((error) => console.error("Error loading liveList.json:", error))
+;
 
-    // 카테고리 데이터 처리
+
+
+
+
+fetch("./assets/data/category.json")
+  .then((res) => res.json())
+  .then((json) => {
+    const categoryData = json.content.categorys.slice(0, 8);
     let cateItemHtml = ``;
     categoryData.forEach((el) => {
       cateItemHtml += `<li class="cate-item">
@@ -325,23 +369,34 @@ fetch("./assets/data/data.json")
             </li>`;
     });
     document.querySelector(".cate-list").innerHTML = cateItemHtml;
+  })
+  .catch((error) => console.error("Error loading category.json:", error))
+;
 
-    // 최근소식 데이터 처리
+
+
+fetch("./assets/data/comment.json")
+  .then((res) => res.json())
+  .then((json) => {
+    const commentData = json.content.lastComments;
     let newsItemHtml = ``;
-    newsData.forEach((el) => {
+    commentData.forEach((el) => {
       let officialIcon = el.user.verifiedMark
         ? `<i class="icon-official"><span class="blind">인증 마크</span></i>`
         : ``;
-      
+
       let newsThumb = el.comment.attaches
         ? `<figure class="thumbnail">
                     <img src="${el.comment.attaches[0].attachValue}" alt">
                   </figure>`
         : ``;
       let profileImg = el.user.profileImageUrl || "./assets/img/anonymous.png";
-      
-      const newContent = el.comment.content.replace(/(?:\r\n|\r|\n)/g, "<br />");
-      
+
+      const newContent = el.comment.content.replace(
+        /(?:\r\n|\r|\n)/g,
+        "<br />"
+      );
+
       const postTimeSet = (date) => {
         const year = date.slice(0, 4);
         const month = date.slice(4, 6) - 1;
@@ -427,7 +482,9 @@ fetch("./assets/data/data.json")
     });
     document.querySelector(".news-list").innerHTML = newsItemHtml;
   })
-  .catch((error) => console.error("Error loading data.json:", error));
+  .catch((error) => console.error("Error loading comment.json:", error))
+;
+
 
 // 헤더 메뉴 토글버튼
 const menuBtn = document.querySelector(".btn-menu");

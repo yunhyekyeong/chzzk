@@ -1,0 +1,321 @@
+{
+  "code": 200,
+  "message": null,
+  "content": {
+    "lastComments": [
+      {
+        "comment": {
+          "commentId": 10861425,
+          "commentType": "COMMENT",
+          "replyCount": 0,
+          "parentCommentId": 0,
+          "content": "해외 게임들 중 장수하는 게임들의 특징은 스토리가 탄탄하고 케릭터(챔피언)간의 상성 관계 밸런스가 맞아서 수집하는 재미, 컨텐츠를 즐기며 세계관을 즐기는 재미가 있다.\n\n무엇보다 과금이 없더라도 시간을 투자한다면 즐기면서 플레이할 수 있다는 점. 레이드 그림자의 전설은 출시 벌써 5년차를 맞이하였지만 국내와 해외의 탄탄한 매니아층을 기반으로 계속 발전해나아가는 것 같다.\n\n인생게임 중 하나.\n\nhttps://pl.go-ga.me/6gsmoheb\n\n지금 플레이하는 신규 유저들에게는 성장 부스터와 에픽 챔피언들을 준다고 하니 꼭 챙겨 받고 플레이하자.\n",
+          "mentionedUserIdHash": null,
+          "mentionedUserNickname": null,
+          "secret": false,
+          "hideByCleanBot": false,
+          "deleted": false,
+          "createdDate": "20240312123150",
+          "attaches": [
+            {
+              "commentId": 10861425,
+              "attachType": "PHOTO",
+              "attachValue": "https://nng-phinf.pstatic.net/MjAyNDAzMTJfNTEg/MDAxNzEwMjE0MDcwNTM3.gpkZffmYTTRefvkDgENWwMFCkEPQONPLqkw4sJv3akgg.9-4uKZwBRmX1IZyOWhd4FYT-Vg8Eo5jb1U2opuDI0JEg.JPEG/242110058_4347494685366003_1673111975270352013_n_%281%29.jpg",
+              "extraJson": null,
+              "order": 1,
+              "createdDate": "2024-03-12T03:31:50.000+00:00",
+              "updatedDate": "2024-03-12T03:31:50.000+00:00"
+            },
+            {
+              "commentId": 10861425,
+              "attachType": "STICKER",
+              "attachValue": "https://storep-phinf.pstatic.net/motion2d_01/original_2.png?type=p100_100",
+              "extraJson": null,
+              "order": 2,
+              "createdDate": "2024-03-12T03:31:50.000+00:00",
+              "updatedDate": "2024-03-12T03:31:50.000+00:00"
+            }
+          ],
+          "objectType": "CHANNEL_POST",
+          "objectId": "c8f424349ced0cfc0568dc08bc414bda",
+          "loungeId": null,
+          "onlyOneEmoji": false,
+          "childObjectCount": 0
+        },
+        "user": {
+          "userIdHash": "c8f424349ced0cfc0568dc08bc414bda",
+          "userNickname": "쌀군",
+          "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAzMDhfMTcw/MDAxNzA5ODg3NzU1MzA2.CQSY7hGPskdwpnUN17N7xPM5ykD1d9C9Mw8XFv9HAUgg.TYFbObyuLJumqhKBB2ma9m1job6iDRMk_8Rgwa676Jkg.PNG/%EC%88%98%EC%A0%95%EB%B3%B8.png",
+          "userLevel": 0,
+          "writer": false,
+          "badge": {
+            "imageUrl": "https://ssl.pstatic.net/static/nng/glive/icon/streamer.png"
+          },
+          "title": {
+            "name": "스트리머",
+            "color": "#D9B04F"
+          },
+          "userRoleCode": "streamer",
+          "secretOpen": false,
+          "buffnerf": null,
+          "privateUserBlock": false,
+          "verifiedMark": false
+        },
+        "buffNerf": {
+          "buffCount": 0,
+          "nerfCount": 0
+        }
+      },
+      {
+        "comment": {
+          "commentId": 10861423,
+          "commentType": "COMMENT",
+          "replyCount": 0,
+          "parentCommentId": 0,
+          "content": "안녕하세요 몽키쌤입니다!\n\n오늘하고 내일 2일 동안 방송을 진행할 예정입니다!\n\n금일 방송은 오후 6시 언저리에! 내일 방송은 오후 4시 언저리에!\n\n게임은 1부 워킹데드 VR, 2부 던그리드로 진행될 예정입니다!\n\n많은 관심 바랍니다!",
+          "mentionedUserIdHash": null,
+          "mentionedUserNickname": null,
+          "secret": false,
+          "hideByCleanBot": false,
+          "deleted": false,
+          "createdDate": "20240312123118",
+          "attaches": null,
+          "objectType": "CHANNEL_POST",
+          "objectId": "0008cf3fdbb8ef0e838dee5deef1e8a9",
+          "loungeId": null,
+          "onlyOneEmoji": false,
+          "childObjectCount": 0
+        },
+        "user": {
+          "userIdHash": "0008cf3fdbb8ef0e838dee5deef1e8a9",
+          "userNickname": "몽키쌤",
+          "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMDdfMjI3/MDAxNzAxOTU3ODY0MjYy._eyPLjaQRlgQoQBgGQm8E1xq3c7QYwjfl9kv60quFPog.kq1N6-PCb77MDqdd0QJjeXnz_giEcBSBmXdWmu3x6bsg.PNG/%EB%A7%A4%EB%A0%A5%EA%BE%BC_%ED%8C%AC%EC%95%84%ED%8A%B83.png",
+          "userLevel": 0,
+          "writer": false,
+          "badge": {
+            "imageUrl": "https://ssl.pstatic.net/static/nng/glive/icon/streamer.png"
+          },
+          "title": {
+            "name": "스트리머",
+            "color": "#D9B04F"
+          },
+          "userRoleCode": "streamer",
+          "secretOpen": false,
+          "buffnerf": null,
+          "privateUserBlock": false,
+          "verifiedMark": false
+        },
+        "buffNerf": {
+          "buffCount": 0,
+          "nerfCount": 0
+        }
+      },
+      {
+        "comment": {
+          "commentId": 10861346,
+          "commentType": "COMMENT",
+          "replyCount": 0,
+          "parentCommentId": 0,
+          "content": "드디어 일 쉬는날~~~\n이따 14시쯤 일본 복권이나 긁어봄\n원피스 복권 믿는다",
+          "mentionedUserIdHash": null,
+          "mentionedUserNickname": null,
+          "secret": false,
+          "hideByCleanBot": false,
+          "deleted": false,
+          "createdDate": "20240312122538",
+          "attaches": [
+            {
+              "commentId": 10861346,
+              "attachType": "PHOTO",
+              "attachValue": "https://nng-phinf.pstatic.net/MjAyNDAzMTJfMjI3/MDAxNzEwMjEzOTM3MzA0.ypXzH2bzgxF719LuuyblG2hWEclXwYsRX7BrT6DMRNAg.B1eY7rhuk1qJsva9Ie5ZKS6GqnqNrTg8geFAOX8DZAYg.JPEG/A01E108B-BED3-4351-9CD0-F42E6FD96B3C-1710213936.jpg",
+              "extraJson": "{\"width\":1900.0,\"height\":2532.0}",
+              "order": 0,
+              "createdDate": "2024-03-12T03:26:44.000+00:00",
+              "updatedDate": "2024-03-12T03:26:44.000+00:00"
+            }
+          ],
+          "objectType": "CHANNEL_POST",
+          "objectId": "0f6d91ebc941fef671d4f9a00ecab851",
+          "loungeId": "",
+          "onlyOneEmoji": false,
+          "childObjectCount": 0
+        },
+        "user": {
+          "userIdHash": "0f6d91ebc941fef671d4f9a00ecab851",
+          "userNickname": "시이렌렌",
+          "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMTlfMjky/MDAxNzA4MzEyNjAwNzI2.yzDKbWFXEnSA4NDOnVl6R8Ggws9l5tKKTIxchuvTpjQg.aoU9GBNsNuraDvD6kuAygSinvbhw714gIlqHf-ycxTog.JPEG/%E3%83%97%E3%83%AD%E7%94%BB.jpg",
+          "userLevel": 0,
+          "writer": false,
+          "badge": {
+            "imageUrl": "https://ssl.pstatic.net/static/nng/glive/icon/streamer.png"
+          },
+          "title": {
+            "name": "스트리머",
+            "color": "#D9B04F"
+          },
+          "userRoleCode": "streamer",
+          "secretOpen": false,
+          "buffnerf": null,
+          "privateUserBlock": false,
+          "verifiedMark": false
+        },
+        "buffNerf": {
+          "buffCount": 0,
+          "nerfCount": 0
+        }
+      },
+      {
+        "comment": {
+          "commentId": 10861326,
+          "commentType": "COMMENT",
+          "replyCount": 0,
+          "parentCommentId": 0,
+          "content": "✨2024.03.11 ~ 2024.03.17✨\n\n수요일 오후 7시 30분 시작!🌟\n\n오후 9시에 미토피아 시즌 2 운동회 진행한다고 하네요~\n\n썰도 풀어야 하니까 30분 일찍 시작하겠습니다!",
+          "mentionedUserIdHash": null,
+          "mentionedUserNickname": null,
+          "secret": false,
+          "hideByCleanBot": false,
+          "deleted": false,
+          "createdDate": "20240312122422",
+          "attaches": [
+            {
+              "commentId": 10861326,
+              "attachType": "PHOTO",
+              "attachValue": "https://nng-phinf.pstatic.net/MjAyNDAzMTJfNyAg/MDAxNzEwMjEzODA5OTAw.0FkV2n8rCdtIQ1cQhWMXXTt_zIHLazO0dq2eXJtt7tUg.KHLOCvCkMjt0AaX0QEeFBuVPBls_Zvrikc0v02qxog0g.PNG/%EC%8B%9C%EA%B0%84%ED%91%9C.png",
+              "extraJson": null,
+              "order": 1,
+              "createdDate": "2024-03-12T03:26:43.000+00:00",
+              "updatedDate": "2024-03-12T03:26:43.000+00:00"
+            }
+          ],
+          "objectType": "CHANNEL_POST",
+          "objectId": "9f7b7be545d0afa5f23cd3e4a0cfb673",
+          "loungeId": null,
+          "onlyOneEmoji": false,
+          "childObjectCount": 0
+        },
+        "user": {
+          "userIdHash": "9f7b7be545d0afa5f23cd3e4a0cfb673",
+          "userNickname": "세포하나",
+          "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTJfMTkw/MDAxNzAyMzU0NjkyNDQ3.E9zAWMCDS1DajN1KofG3cPliKEEDctgTxcpmI0DYUDAg.IyH25RYJNptB71Pi6VLD9MuibkkZT_PFcY77x4u-6Kwg.PNG/KakaoTalk_20220916_223009338_02.png",
+          "userLevel": 0,
+          "writer": false,
+          "badge": {
+            "imageUrl": "https://ssl.pstatic.net/static/nng/glive/icon/streamer.png"
+          },
+          "title": {
+            "name": "스트리머",
+            "color": "#D9B04F"
+          },
+          "userRoleCode": "streamer",
+          "secretOpen": false,
+          "buffnerf": null,
+          "privateUserBlock": false,
+          "verifiedMark": false
+        },
+        "buffNerf": {
+          "buffCount": 0,
+          "nerfCount": 0
+        }
+      },
+      {
+        "comment": {
+          "commentId": 10861325,
+          "commentType": "COMMENT",
+          "replyCount": 0,
+          "parentCommentId": 0,
+          "content": "오늘 방송 늦을 것 같습니다! 미리 죄송함다! (아마 3시쯤 킬 듯...?)",
+          "mentionedUserIdHash": null,
+          "mentionedUserNickname": null,
+          "secret": false,
+          "hideByCleanBot": false,
+          "deleted": false,
+          "createdDate": "20240312122420",
+          "attaches": null,
+          "objectType": "CHANNEL_POST",
+          "objectId": "529e27923b252d64cd801ee31dd33fac",
+          "loungeId": null,
+          "onlyOneEmoji": false,
+          "childObjectCount": 0
+        },
+        "user": {
+          "userIdHash": "529e27923b252d64cd801ee31dd33fac",
+          "userNickname": "세빌cevil",
+          "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDRfNzgg/MDAxNzEyMTk5MzUyMzc2.wLQKfOrC2DmMl9WXsGE6bZqWESisemVRIuu83YWQMDIg.KpW3S-adJvBfFCZ49uJtVTwtpjDI7iIhbSZ4QgL1d3sg.PNG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-04-03_204057.png?type=f120_120_na",
+          "userLevel": 0,
+          "writer": false,
+          "badge": {
+            "imageUrl": "https://ssl.pstatic.net/static/nng/glive/icon/streamer.png"
+          },
+          "title": {
+            "name": "스트리머",
+            "color": "#D9B04F"
+          },
+          "userRoleCode": "streamer",
+          "secretOpen": false,
+          "buffnerf": null,
+          "privateUserBlock": false,
+          "verifiedMark": false
+        },
+        "buffNerf": {
+          "buffCount": 0,
+          "nerfCount": 0
+        }
+      },
+      {
+        "comment": {
+          "commentId": 10861323,
+          "commentType": "COMMENT",
+          "replyCount": 0,
+          "parentCommentId": 0,
+          "content": "5주년 축하해준 분들 모두 기역시옷\n더 열심히 잘! 해보겠습니다 히히 ❤️.❤️\n\n그림선물 : 모딘이 감사💚",
+          "mentionedUserIdHash": null,
+          "mentionedUserNickname": null,
+          "secret": false,
+          "hideByCleanBot": false,
+          "deleted": false,
+          "createdDate": "20240312122416",
+          "attaches": [
+            {
+              "commentId": 10861323,
+              "attachType": "PHOTO",
+              "attachValue": "https://nng-phinf.pstatic.net/MjAyNDAzMTJfMjkx/MDAxNzEwMjEzODU1NzQz.rFmuH2FF2hcp1lxmlDvTxpy-qlVnbQEetsu-LWp-iccg.Aemxl6PmpuHFXt1xUoDlZmfQs8DR0KA2DYYK4U4h9Awg.JPEG/322A380F-1D0B-48B4-B9B1-3A861A44EF28-1710213855.jpg",
+              "extraJson": "{\"width\":1208.0,\"height\":1542.0}",
+              "order": 0,
+              "createdDate": "2024-03-12T03:24:16.000+00:00",
+              "updatedDate": "2024-03-12T03:24:16.000+00:00"
+            }
+          ],
+          "objectType": "CHANNEL_POST",
+          "objectId": "7c740cb6bc6351e01bce31375175a38d",
+          "loungeId": "",
+          "onlyOneEmoji": false,
+          "childObjectCount": 0
+        },
+        "user": {
+          "userIdHash": "7c740cb6bc6351e01bce31375175a38d",
+          "userNickname": "어써미",
+          "profileImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDRfODUg/MDAxNzEyMTcxNzU2Njg4.RY3AMbFOK7qB63JQYoZ1xNnBNILQV_NaRf1kY5AwxgUg.ihqJRT_htoUGTa00YkIFxaAPH_UMksVtHbPCGnR4_Jog.PNG/322A380F-1D0B-48B4-B9B1-3A861A44EF28-1712171756.png?type=f120_120_na",
+          "userLevel": 0,
+          "writer": false,
+          "badge": {
+            "imageUrl": "https://ssl.pstatic.net/static/nng/glive/icon/streamer.png"
+          },
+          "title": {
+            "name": "스트리머",
+            "color": "#D9B04F"
+          },
+          "userRoleCode": "streamer",
+          "secretOpen": false,
+          "buffnerf": null,
+          "privateUserBlock": false,
+          "verifiedMark": false
+        },
+        "buffNerf": {
+          "buffCount": 0,
+          "nerfCount": 0
+        }
+      }
+    ]
+  }
+}

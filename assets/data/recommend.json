@@ -1,0 +1,308 @@
+{
+  "code": 200,
+  "message": null,
+  "content": {
+    "recommendationChannels": [
+      {
+        "channelId": "17aa057a8248b53affe30512a91481f5",
+        "channel": {
+          "channelId": "17aa057a8248b53affe30512a91481f5",
+          "channelName": "김도",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMDdfMjA5/MDAxNzAxODc1Mzk0Njgz.4jdg2LkiZM_r-GCnzaLv89BkTh-sWLdYjuYcf_t3IP4g.KhoU7pv7Vk5K4QPKX361Cv7VblSE4LXV5NwjgWETEGkg.PNG/%ED%94%84%EC%82%AC.png",
+          "verifiedMark": true
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "항아리에서 왜 나왔어 A Difficult Game About Climbing",
+          "concurrentUserCount": 6577,
+          "liveCategoryValue": "어 디피컬트 게임 어바웃 클라이밍"
+        }
+      },
+      {
+        "channelId": "4515b179f86b67b4981e16190817c580",
+        "channel": {
+          "channelId": "4515b179f86b67b4981e16190817c580",
+          "channelName": "네네코 마시로",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDA0MDNfMjEz/MDAxNzEyMDk5NzM4MzQ5.6tyP3WAevXlFLV14kmYICOwpHMxMEGByj3dN4JjnW80g.On59xEh9M0kcv1WkcEVkkZD3OOoaZNrME_w2foWIfLsg.PNG/F682B80A-240C-4173-BD87-070C952C820F-1712099738.png?type=f120_120_na",
+          "verifiedMark": true
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "우리들의 헬다이버즈2",
+          "concurrentUserCount": 2879,
+          "liveCategoryValue": "헬다이버즈 2"
+        }
+      },
+      {
+        "channelId": "bdc57cc4217173f0e89f63fba2f1c6e5",
+        "channel": {
+          "channelId": "bdc57cc4217173f0e89f63fba2f1c6e5",
+          "channelName": "다주",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAxMDFfNDIg/MDAxNzA0MDc3OTAxNTEw.BFkbuXeeAI7VHdH4iWFNwhRO8J9gnSqlLQczMUPWU-4g.kUOuvYabUvpL347-O5mofCGz3h58DrvCNgHWky1mGmcg.PNG/e19ac520d13f081f-profile_image-300x300.png",
+          "verifiedMark": true
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "역전재판 5 - 2",
+          "concurrentUserCount": 2179,
+          "liveCategoryValue": "역전재판 456 오도로키 셀렉션"
+        }
+      },
+      {
+        "channelId": "0d027498b18371674fac3ed17247e6b8",
+        "channel": {
+          "channelId": "0d027498b18371674fac3ed17247e6b8",
+          "channelName": "옥냥이 RoofTopCAT",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAzMjVfMjgg/MDAxNzExMzcwNDU5Mzcw.teudJR7dDMMV6O4s_EP4GMVuwzSpi_jTBqYgK5eJzaYg._pMAPsWPVPDLb67755SgXwT_Cutzm33clMOLIiJX1Kwg.JPEG/RTC.jpg?type=f120_120_na",
+          "verifiedMark": true
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "문명,삼국지,토탈워를 섞은 게임 (스토리 몰라도 됨) ~(^_^)~",
+          "concurrentUserCount": 2044,
+          "liveCategoryValue": "유니콘 오버로드"
+        }
+      },
+      {
+        "channelId": "1906dd57f578c255feca54700bcccfc9",
+        "channel": {
+          "channelId": "1906dd57f578c255feca54700bcccfc9",
+          "channelName": "똘똘똘이",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAxMzBfMjkz/MDAxNzA2NTgyMzA5Nzg3.u_iHpzDvsF2QBvzTEgHgG0TcsqekEmRL9e-ugp75JfUg.M5HgXk_KCcP1sxoz1UdWl-dnK1g27u9WE5-8U2oGeaMg.JPEG/IMG_0591.jpeg",
+          "verifiedMark": true
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "빠삐플레이타임 3",
+          "concurrentUserCount": 839,
+          "liveCategoryValue": "파피 플레이타임"
+        }
+      },
+      {
+        "channelId": "5fe707b3243cd56bc00908eab6631b38",
+        "channel": {
+          "channelId": "5fe707b3243cd56bc00908eab6631b38",
+          "channelName": "중년게이머김실장",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjJfMjc2/MDAxNzAzMjIwNzAzMTIx.jFE-2_zVyb5zkrhzDueJgu-Mg0vdUre59I7Pf-lWKcgg.9-Y1EzQBxsVNApV8AfNSnOuugU11RCeWR2aAcsb-X_Yg.JPEG/unnamed.jpg",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "3일간 진도를 전혀 나가지 못했다... 신작 유니콘 오버로드 설명회",
+          "concurrentUserCount": 416,
+          "liveCategoryValue": "유니콘 오버로드"
+        }
+      },
+      {
+        "channelId": "3c9fe16c70cf2f4a5274fa69307f0f89",
+        "channel": {
+          "channelId": "3c9fe16c70cf2f4a5274fa69307f0f89",
+          "channelName": "여까",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMjAw/MDAxNzAyOTc5MTE4MTMw.MXfxQVKeuKjEFK_4jUvfYf4wEpB93BBY5exic7bEJLYg.O82OHmNR0qQL0S_NLcIKBJNfdrmcB5KNt_8P5RVEjQAg.PNG/1.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "준비할게 많아",
+          "concurrentUserCount": 312,
+          "liveCategoryValue": "talk"
+        }
+      },
+      {
+        "channelId": "00cbd24a8442854ac0b0e2d1ef884776",
+        "channel": {
+          "channelId": "00cbd24a8442854ac0b0e2d1ef884776",
+          "channelName": "마인애플 MinedApple",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMDZfMjM4/MDAxNzAxODczNTQ4OTQ3.AoO0x97h3fKGEH1Aku83RuuLbv2Om80NUaBlh86GkFwg.0Efu1pzrlAockwjIoZUtqkZCwGAXE1qgEB-XNbdsuQYg.PNG/discord_0001_.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "유우우우명한 게임",
+          "concurrentUserCount": 269,
+          "liveCategoryValue": "마인크래프트"
+        }
+      },
+      {
+        "channelId": "760d0edd2546909721dd1c7f2dbc6641",
+        "channel": {
+          "channelId": "760d0edd2546909721dd1c7f2dbc6641",
+          "channelName": "루시아Lucia",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjFfMjc4/MDAxNzAzMTU2NjU3ODcx.4JBEQbMCcJbhvUmtPpdnTK1WhkTs0HFqm-Lg2l5wIC4g.MLgOVio2PkHIcPT1zKdMijPaDYb1N1CoB4PfECpi91gg.PNG/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "[루시아] 당신의 피로를 풀어줄 내가 와따 ʕ •̀ o •́ ʔ",
+          "concurrentUserCount": 252,
+          "liveCategoryValue": "talk"
+        }
+      },
+      {
+        "channelId": "124ca807978c091907e26c2a5c3b307a",
+        "channel": {
+          "channelId": "124ca807978c091907e26c2a5c3b307a",
+          "channelName": "공설",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMTNfMjEw/MDAxNzAyMzk4OTAwNzUz.R__CNJWvUtG6-DRWT2Gpa5XyS_2GFT-RXEeDZ2d5h0cg.PRry_7UqrhseW6uyrrwxWoN9EoxE8kkV16bH1cwCSt0g.PNG/%ED%94%84%EC%82%AC.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "\uD83D\uDC96이클립스 도전 2일차! 트라이 같이가실분?! 훈수환영!! [로아/로스트아크]",
+          "concurrentUserCount": 212,
+          "liveCategoryValue": "로스트아크"
+        }
+      },
+      {
+        "channelId": "7fc38b0da9a6280356c4e01dcb965c07",
+        "channel": {
+          "channelId": "7fc38b0da9a6280356c4e01dcb965c07",
+          "channelName": "HaruNuna",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjFfMTYg/MDAxNzAzMTY0NTM0OTkz.t4uo-7Qk5-sTpx43LE6LckW8nI800pPNA3_XuXk4ybsg.4iBYnKdLkYezVZt74MSTSANCkjSINfIprpJKwcYCpAcg.PNG/%EC%96%BC%EA%B5%B4%EB%A7%8C%29%EC%98%86%EB%A8%B8%EB%A6%AC%EC%97%86%ED%94%84%EC%82%AC.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "\uD83D\uDD1E 목소리 취향일지도\uD83D\uDC9C #베히모스 #라디오 #ASMR",
+          "concurrentUserCount": 168,
+          "liveCategoryValue": "로스트아크"
+        }
+      },
+      {
+        "channelId": "00b3e3351b84827c73d78caba23fa238",
+        "channel": {
+          "channelId": "00b3e3351b84827c73d78caba23fa238",
+          "channelName": "퀸슈아",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMDZfMjIg/MDAxNzAxODQ2NTc5OTM0.agbFnax7kFlhW4Z7EE9K8cmBH354XhX9X8uKU0KZOaEg.gsDnEHjwqB7W2QvoH-3xl8q4_UmBbJeUH5GhczVCgpQg.PNG/vts-2023-11-29_22h10_36.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "월요일엔 퀸슈아 노래 >< ",
+          "concurrentUserCount": 160,
+          "liveCategoryValue": "음악"
+        }
+      },
+      {
+        "channelId": "2a6772fe35f1508f27676a5422d1a136",
+        "channel": {
+          "channelId": "2a6772fe35f1508f27676a5422d1a136",
+          "channelName": "베 나",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjlfMTk4/MDAxNzAzODQwMTMwNzYz.AVe4dFt5jnNCa1d6HxomxOrY_AKLLkxVPBb30_LUWhgg.5ZxazSEVFid8NhM1fDk80TYaSCIY6RIvvOZfFr21oEQg.JPEG/%EC%9E%90%EB%A7%89%EA%B0%80%EB%A6%BC.jpg",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "휠윈드바바 | 디아2 하코 래더6기",
+          "concurrentUserCount": 139,
+          "liveCategoryValue": "디아블로 II: 레저렉션"
+        }
+      },
+      {
+        "channelId": "7bbd9a1035164d65ae5c4960af75c0fa",
+        "channel": {
+          "channelId": "7bbd9a1035164d65ae5c4960af75c0fa",
+          "channelName": "키로1",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAxMjJfMjQw/MDAxNzA1ODkxNzI4MjUy.yqSxO5wQmbx4rdCRMl8cbeqIQlQT3ZiOxJbPOL4q8ksg.PL9cnDXUwmfkUZrx2CZtzFwkEtI4M5tHr4x9atjVHdAg.JPEG/NNG-17058917278727367588674685179848.jpg",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "안녕하세요 소통해요",
+          "concurrentUserCount": 133,
+          "liveCategoryValue": "이터널 리턴"
+        }
+      },
+      {
+        "channelId": "220f0c301e07f2be948982e56aa23cbd",
+        "channel": {
+          "channelId": "220f0c301e07f2be948982e56aa23cbd",
+          "channelName": "귀마개",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjFfNjAg/MDAxNzAzMTM0OTIxMzEw.ajOAujXbbl7NmLAFut_kRmZ6pFw75KdAww3PdZ7EkwEg.UK4yqCLyDsWGky5lj2RAlmDqDJ6PFiEahq9pHC4wK4Ag.JPEG/%ED%94%84%EC%82%AC.jpg",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "와우에 하스 이벤트가 열렸다고???",
+          "concurrentUserCount": 117,
+          "liveCategoryValue": "월드 오브 워크래프트: 용군단"
+        }
+      },
+      {
+        "channelId": "f1a19a8c6b0c54357b5ce512ae63def1",
+        "channel": {
+          "channelId": "f1a19a8c6b0c54357b5ce512ae63def1",
+          "channelName": "뮤 즈",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMjZfNDIg/MDAxNzA4OTM0NDA1MDk2.sCmo_gyL9z3JM057kyJJSaDovKdmnmyvUH7N7sZIPfEg.V0uqOtw0Mll-_8r3exdATMNszYTUYWprqEmOvalmMkUg.PNG/20240226-165957-1-VSeeFace.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "추억여행 사이버 경로당",
+          "concurrentUserCount": 104,
+          "liveCategoryValue": ""
+        }
+      },
+      {
+        "channelId": "f14d1893cb3859868e59c759c05397f5",
+        "channel": {
+          "channelId": "f14d1893cb3859868e59c759c05397f5",
+          "channelName": "리크리",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMDZfMjE3/MDAxNzAxODY5ODE0NTgw.5yPu0gFiTLHovzcCbH95NEGRcHzFrdVvR-2poa0HUy0g.gqhAfvHPgrJXCHTqI9fCUmQeabDaDFQx-PLHcfZpPlUg.JPEG/2.jpg",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "룰렛 명작 게임 극장 - 하늘의 궤적 SC",
+          "concurrentUserCount": 97,
+          "liveCategoryValue": "영웅전설 제로의 궤적: Kai"
+        }
+      },
+      {
+        "channelId": "51420f4078ef701b03421904ad712401",
+        "channel": {
+          "channelId": "51420f4078ef701b03421904ad712401",
+          "channelName": "온앤온",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyMzEyMjdfMSAg/MDAxNzAzNjA4NjYzNDg5.suQ3lyRzaAvtTMIV_dV8IKpa1Z2skKP0ThcH_ByDa08g.u0N9Dnw2j_uQk7re4Rf_KLUIBMvO_doQ3bBZrRFPsrsg.JPEG/channels4_profile.jpg",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "로아 오랜만! 스타일북?! 살펴보기 (っ´Ι`)っ",
+          "concurrentUserCount": 87,
+          "liveCategoryValue": "로스트아크"
+        }
+      },
+      {
+        "channelId": "96c61ea06b1fa60ce88c15222239e9a9",
+        "channel": {
+          "channelId": "96c61ea06b1fa60ce88c15222239e9a9",
+          "channelName": "준상2",
+          "channelImageUrl": "https://ssl.pstatic.net/cmstatic/nng/img/img_anonymous_square_gray_opacity2x.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "짧",
+          "concurrentUserCount": 84,
+          "liveCategoryValue": "이터널 리턴"
+        }
+      },
+      {
+        "channelId": "5fd31d9196044bcd63dba856c955682b",
+        "channel": {
+          "channelId": "5fd31d9196044bcd63dba856c955682b",
+          "channelName": "카게후미",
+          "channelImageUrl": "https://nng-phinf.pstatic.net/MjAyNDAyMTlfMTU4/MDAxNzA4MzI4NzE2NTQ1.Xed3kdRcW0OmjB0kUE3fdn2kvohN4R_G1-XDpepRQ8wg.zTLZ__XgiXzJD6qxuvaBoMqcc0DPGvVD6NUcQ4yH-v8g.PNG/1.png",
+          "verifiedMark": false
+        },
+        "streamer": { "openLive": true },
+        "liveInfo": {
+          "liveTitle": "용군단 쐐기 주차",
+          "concurrentUserCount": 83,
+          "liveCategoryValue": "월드 오브 워크래프트: 용군단"
+        }
+      }
+    ]
+  }
+}
