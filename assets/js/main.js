@@ -1,8 +1,8 @@
 
 fetch("./assets/data/recommend.json")
   .then(res => res.json())
-  .then(json => {
-    const recommendData = json.content.recommendationChannels;
+  .then(data => {
+    const recommendData = data.content.recommendationChannels;
     let navItemHtml = ``;
     recommendData.forEach((el) => {
       let officialIcon = el.channel.verifiedMark
@@ -67,7 +67,7 @@ fetch("./assets/data/recommend.json")
     });
     navInit();
   })
-  .catch((error) => console.error("Error loading recommend.json:", error))
+  .catch((error) => console.error("Error recommend.json", error))
 ;
 
 
@@ -76,8 +76,8 @@ fetch("./assets/data/recommend.json")
 
 fetch("./assets/data/banner.json")
   .then((res) => res.json())
-  .then((json) => {
-    const bannerData = json.content.banners;
+  .then((data) => {
+    const bannerData = data.content.banners;
     // 배너 데이터 처리
     let bannerItemHtml = ``;
     bannerData.forEach((el) => {
@@ -96,7 +96,7 @@ fetch("./assets/data/banner.json")
     });
     document.querySelector(".bann-list").innerHTML = bannerItemHtml;
   })
-  .catch((error) => console.error("Error loading banner.json:", error))
+  .catch((error) => console.error("Error banner.json", error))
 ;
 
 
@@ -105,8 +105,8 @@ fetch("./assets/data/banner.json")
 
 fetch("./assets/data/topRecommend.json")
   .then((res) => res.json())
-  .then((json) => {
-    const topRecommendData = json.content.topRecommendationLiveList;
+  .then((data) => {
+    const topRecommendData = data.content.topRecommendationLiveList;
     let topRecommendHtml = ``;
     topRecommendData.forEach((el) => {
       topRecommendHtml += `<li class="live-item" role="none">
@@ -185,7 +185,7 @@ fetch("./assets/data/topRecommend.json")
       });
     });
   })
-  .catch((error) => console.error("Error loading topRecommend.json:", error))
+  .catch((error) => console.error("Error topRecommend.json", error))
 ;
 
 
@@ -194,8 +194,8 @@ fetch("./assets/data/topRecommend.json")
 
 fetch("./assets/data/partner.json")
   .then((res) => res.json())
-  .then((json) => {
-    const partnerData = json.content.streamerPartners.slice(0, 17);
+  .then((data) => {
+    const partnerData = data.content.streamerPartners.slice(0, 17);
     let partnerItemHtml = ``;
     partnerData.forEach((el) => {
       let liveBadge = el.openLive
@@ -239,8 +239,7 @@ fetch("./assets/data/partner.json")
       }
     });
   })
-  .catch((error) => console.error("Error loading partner.json:", error))
-;
+  .catch((error) => console.error("Error partner.json", error));
 
 
 
@@ -248,8 +247,8 @@ fetch("./assets/data/partner.json")
 
 fetch("./assets/data/liveList.json")
   .then((res) => res.json())
-  .then((json) => {
-    const liveListData = json.content.streamingLiveList.slice(0, 50);
+  .then((data) => {
+    const liveListData = data.content.streamingLiveList.slice(0, 50);
     let recomItemHtml = ``;
     liveListData.forEach((el) => {
       let officialIcon = el.channel.verifiedMark
@@ -342,8 +341,7 @@ fetch("./assets/data/liveList.json")
     });
     recomInit();
   })
-  .catch((error) => console.error("Error loading liveList.json:", error))
-;
+  .catch((error) => console.error("Error liveList.json", error));
 
 
 
@@ -351,8 +349,8 @@ fetch("./assets/data/liveList.json")
 
 fetch("./assets/data/category.json")
   .then((res) => res.json())
-  .then((json) => {
-    const categoryData = json.content.categorys.slice(0, 8);
+  .then((data) => {
+    const categoryData = data.content.categorys.slice(0, 8);
     let cateItemHtml = ``;
     categoryData.forEach((el) => {
       cateItemHtml += `<li class="cate-item">
@@ -370,8 +368,7 @@ fetch("./assets/data/category.json")
     });
     document.querySelector(".cate-list").innerHTML = cateItemHtml;
   })
-  .catch((error) => console.error("Error loading category.json:", error))
-;
+  .catch((error) => console.error("Error category.json", error));
 
 
 
@@ -482,7 +479,7 @@ fetch("./assets/data/comment.json")
     });
     document.querySelector(".news-list").innerHTML = newsItemHtml;
   })
-  .catch((error) => console.error("Error loading comment.json:", error))
+  .catch((error) => console.error("Error comment.json", error))
 ;
 
 
