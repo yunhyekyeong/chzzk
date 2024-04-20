@@ -39,15 +39,13 @@ fetch("./assets/data/recommend.json")
     document.querySelector(".nav-list").innerHTML = navItemHtml;
     const navMoreBtn = document.querySelector(".navigator .btn-more");
     const navMoreBtnTxt = document.querySelector(".navigator .btn-more > span");
-    let navItems = [];
+    const navItems = document.querySelectorAll(".nav-item");
     let isExpanded = false;
 
-    const navMoreState = (expand) => {
+    const toggleNav = (expand) => {
       navItems.forEach((item, index) => {
-        if (expand) {
-          item.classList.remove("hidden");
-        } else if (index > 4) {
-          item.classList.add("hidden");
+        if (index > 4) {
+          item.classList.toggle("hidden", !expand);
         }
       });
 
@@ -57,15 +55,11 @@ fetch("./assets/data/recommend.json")
       isExpanded = expand;
     };
 
-    const navInit = () => {
-      navItems = document.querySelectorAll(".nav-item");
-      navMoreState(false);
-    };
-
     navMoreBtn.addEventListener("click", () => {
-      navMoreState(!isExpanded);
+      toggleNav(!isExpanded);
     });
-    navInit();
+
+    toggleNav(false);
   })
   .catch((error) => console.error("Error recommend.json", error))
 ;
@@ -314,14 +308,13 @@ fetch("./assets/data/liveList.json")
     const recomMoreBtnTxt = document.querySelector(
       ".sc-recommend .btn-more > span"
     );
-    let recomItems = [];
+    const recomItems = document.querySelectorAll(".recom-item");
+    let isExpanded = false;
 
-    const recomMoreState = (expand) => {
+    const toggleRecom = (expand) => {
       recomItems.forEach((item, index) => {
-        if (expand) {
-          item.classList.remove("hidden");
-        } else if (index > 24) {
-          item.classList.add("hidden");
+        if (index > 24) {
+          item.classList.toggle("hidden", !expand);
         }
       });
 
@@ -331,15 +324,11 @@ fetch("./assets/data/liveList.json")
       isExpanded = expand;
     };
 
-    const recomInit = () => {
-      recomItems = document.querySelectorAll(".recom-item");
-      recomMoreState(false);
-    };
-
     recomMoreBtn.addEventListener("click", () => {
-      recomMoreState(!isExpanded);
+      toggleRecom(!isExpanded);
     });
-    recomInit();
+
+    toggleRecom(false);
   })
   .catch((error) => console.error("Error liveList.json", error));
 
