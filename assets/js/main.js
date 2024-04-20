@@ -42,6 +42,10 @@ fetch("./assets/data/recommend.json")
     const navItems = document.querySelectorAll(".nav-item");
     let isExpanded = false;
 
+    navMoreBtn.addEventListener("click", () => {
+      toggleNav(!isExpanded);
+    });
+
     const toggleNav = (expand) => {
       navItems.forEach((item, index) => {
         if (index > 4) {
@@ -54,10 +58,6 @@ fetch("./assets/data/recommend.json")
       navMoreBtn.setAttribute("aria-expanded", expand.toString());
       isExpanded = expand;
     };
-
-    navMoreBtn.addEventListener("click", () => {
-      toggleNav(!isExpanded);
-    });
 
     toggleNav(false);
 
@@ -117,7 +117,7 @@ fetch("./assets/data/topRecommend.json")
     const streamerProfile = document.querySelector(".streamer-profi");
     const streamerName = document.querySelector(".streamer-name");
     
-    function liveContent(data) {
+    const liveContentSet = (data) => {
       viewCount.textContent = data.concurrentUserCount;
       title.textContent = data.liveTitle;
       category.textContent = data.liveCategoryValue;
@@ -128,29 +128,30 @@ fetch("./assets/data/topRecommend.json")
       videoPlayer.play();
 
       // 스트리머 프로필 이미지
-      let streamerImg = data.channel.channelImageUrl || "./assets/img/anonymous.png";
+      let streamerImg =
+        data.channel.channelImageUrl || "./assets/img/anonymous.png";
       streamerProfile.innerHTML = `<a href="https://chzzk.naver.com/${data.channel.channelId}">
-                                  <span class="blind">스트리머 채널로 이동</span>
-                                  <figure class="profile-line">
-                                    <img src="${streamerImg}" 
-                                    alt="${data.channel.channelName} 프로필 이미지">
-                                    <span class="blind">LIVE</span>
-                                  </figure>
-                                </a>`;
+                                      <span class="blind">스트리머 채널로 이동</span>
+                                      <figure class="profile-line">
+                                        <img src="${streamerImg}" 
+                                        alt="${data.channel.channelName} 프로필 이미지">
+                                        <span class="blind">LIVE</span>
+                                      </figure>
+                                    </a>`;
 
       // 스트리머 이름 설정
       let officialIcon = data.channel.verifiedMark
         ? `<i class="icon-official"><span class="blind">인증 마크</span></i>`
         : ``;
       streamerName.innerHTML = `<a href="${data.channel.channelId}">
-                                <span class="blind">스트리머 채널로 이동</span>
-                                <strong class="name">
-                                  <span>${data.channel.channelName}</span>
-                                  ${officialIcon}
-                                </strong>
-                              </a>`;
-    }
-    liveContent(topRecommendData[0]);
+                                    <span class="blind">스트리머 채널로 이동</span>
+                                    <strong class="name">
+                                      <span>${data.channel.channelName}</span>
+                                      ${officialIcon}
+                                    </strong>
+                                  </a>`;
+    };
+    liveContentSet(topRecommendData[0]);
 
     let topRecommendHtml = ``;
     topRecommendData.forEach((el) => {
@@ -173,7 +174,7 @@ fetch("./assets/data/topRecommend.json")
       item.addEventListener("click", function () {
         tabBtn.forEach((tab) => tab.setAttribute("aria-selected", "false"));
         this.setAttribute("aria-selected", "true");
-        liveContent(topRecommendData[index]);
+        liveContentSet(topRecommendData[index]);
       });
     });
   })
@@ -191,8 +192,7 @@ fetch("./assets/data/partner.json")
     partnerData.forEach((el) => {
       let liveBadge = el.openLive
         ? `<span class="live-badge">
-            <svg width="20" height="7" viewBox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true">
+            <svg width="20" height="7" viewBox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M8.5918 9.94881V12.4211H0.177979V0.368866H3.38116V9.94881H8.5918ZM13.8997 0.368866V12.4211H10.6965V0.368866H13.8997ZM23.7898 12.4211L27.8047 0.368866H24.296L21.8783 9.42263H21.8085L19.3821 0.368866H15.7425L19.7574 12.4211H23.7898ZM38.2796 9.94881V12.4211H29.6475V0.368866H38.2796V2.84111H32.8507V5.23819H37.9566V7.49327H32.8507V9.94881H38.2796Z"
                 fill="white"></path>
@@ -206,28 +206,27 @@ fetch("./assets/data/partner.json")
       let profileImg = el.profileImageUrl || "./assets/img/anonymous.png";
 
       partnerItemHtml += `<li class="partner-item">
-              <a href="https://chzzk.naver.com/live/${el.channelId}">
-                <div class="partner-img">
-                  <figure>
-                    <img src="${profileImg}" alt="">
-                  </figure>
-                  ${liveBadge}
-                </div>
-                <strong class="partner-name">
-                  <span class="name">
-                    <span>${el.channelName}</span>
-                    ${officialIcon}
-                  </span>
-                </strong>
-              </a>
-            </li>`;
+                            <a href="https://chzzk.naver.com/live/${el.channelId}">
+                              <div class="partner-img">
+                                <figure>
+                                  <img src="${profileImg}" alt="">
+                                </figure>
+                                ${liveBadge}
+                              </div>
+                              <strong class="partner-name">
+                                <span class="name">
+                                  <span>${el.channelName}</span>
+                                  ${officialIcon}
+                                </span>
+                              </strong>
+                            </a>
+                          </li>`;
     });
     document.querySelector(".partner-list").innerHTML = partnerItemHtml;
+
     const partnerImgs = document.querySelectorAll(".partner-img");
     partnerImgs.forEach((item, index) => {
-      if (partnerData[index] && partnerData[index].openLive === false) {
-        item.classList.add("off");
-      }
+      item.classList.toggle("off", !partnerData[index].openLive);
     });
   })
   .catch((error) => console.error("Error partner.json", error));
@@ -390,20 +389,17 @@ fetch("./assets/data/comment.json")
 
         const start = new Date(year, month, day, hour, minute, second);
         const end = new Date();
-
         const seconds = Math.floor((end.getTime() - start.getTime()) / 1000);
-        if (seconds < 60) return "방금 전";
-
         const minutes = seconds / 60;
-        if (minutes < 60) return `${Math.floor(minutes)}분 전`;
-
         const hours = minutes / 60;
-        if (hours < 24) return `${Math.floor(hours)}시간 전`;
-
         const days = hours / 24;
+
+        if (seconds < 60) return "방금 전";
+        if (minutes < 60) return `${Math.floor(minutes)}분 전`;
+        if (hours < 24) return `${Math.floor(hours)}시간 전`;
         if (days < 7) return `${Math.floor(days)}일 전`;
 
-        return `${start.toLocaleDateString()}`;
+        return start.toLocaleDateString();
       };
 
       const postTime = postTimeSet(el.comment.createdDate);
