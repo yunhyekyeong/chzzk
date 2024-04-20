@@ -105,76 +105,66 @@ fetch("./assets/data/banner.json")
 
 
 
-
 fetch("./assets/data/topRecommend.json")
   .then((res) => res.json())
   .then((data) => {
     const topRecommendData = data.content.topRecommendationLiveList;
-    let topRecommendHtml = ``;
-    topRecommendData.forEach((el) => {
-      topRecommendHtml += `<li class="live-item" role="none">
-                    <button type="button" role="tab" aria-selected="false" class="btn-tab">
-                      <div class="thumbnail" style="background-image: url('${el.liveImageUrl}');">
-                        <span class="blind">${el.liveTitle}</span>
-                      </div>
-                    </button>
-                  </li>`;
-    });
-    document.querySelector(".live-list").innerHTML = topRecommendHtml;
 
+    const viewCount = document.querySelector(".sc-live .live-header .viewer .count");
+    const title = document.querySelector(".sc-live .live-header .tit");
+    const category = document.querySelector(".sc-live .streamer .category > span");
+    const videoPlayer = document.querySelector(".live-video video");
+    const streamerProfile = document.querySelector(".streamer-profi");
+    const streamerName = document.querySelector(".streamer-name");
+    
     function liveContent(data) {
-      const viewCount = document.querySelector(
-        ".sc-live .live-header .viewer .count"
-      );
-      const title = document.querySelector(".sc-live .live-header .tit");
-      const category = document.querySelector(
-        ".sc-live .streamer .category > span"
-      );
-
       viewCount.textContent = data.concurrentUserCount;
       title.textContent = data.liveTitle;
       category.textContent = data.liveCategoryValue;
 
-      let videoHtml = liveVideoHtml(data);
-      let streamerNameHtml = liveStreamerNameHtml(data);
-      let streamerProfiHtml = liveStreamerProfiHtml(data);
-
-      document.querySelector(".live-video video").innerHTML = videoHtml;
-      document.querySelector(".streamer-profi").innerHTML = streamerProfiHtml;
-      document.querySelector(".streamer-name").innerHTML = streamerNameHtml;
-    }
-    liveContent(topRecommendData[0]);
-
-    function liveVideoHtml(data) {
-      const videoPlayer = document.querySelector(".live-video video");
+      // 배경 비디오
       videoPlayer.src = data.livePlaybackJson;
       videoPlayer.load();
       videoPlayer.play();
-    }
 
-    function liveStreamerProfiHtml(data) {
-      let streamerImg =
-        data.channel.channelImageUrl || "./assets/img/anonymous.png";
-      return `<a href="https://chzzk.naver.com/${data.channel.channelId}">
-                <span class="blind">스트리머 채널로 이동</span>
-                <figure class="profile-line">
-                  <img src="${streamerImg}" alt="${data.channel.channelName} 프로필 이미지">
-                  <span class="blind">LIVE</span>
-                </figure>
-              </a>`;
-    }
-    function liveStreamerNameHtml(data) {
+      // 스트리머 프로필 이미지
+      let streamerImg = data.channel.channelImageUrl || "./assets/img/anonymous.png";
+      streamerProfile.innerHTML = `<a href="https://chzzk.naver.com/${data.channel.channelId}">
+                                  <span class="blind">스트리머 채널로 이동</span>
+                                  <figure class="profile-line">
+                                    <img src="${streamerImg}" 
+                                    alt="${data.channel.channelName} 프로필 이미지">
+                                    <span class="blind">LIVE</span>
+                                  </figure>
+                                </a>`;
+
+      // 스트리머 이름 설정
       let officialIcon = data.channel.verifiedMark
         ? `<i class="icon-official"><span class="blind">인증 마크</span></i>`
         : ``;
-      return `<a href="${data.channel.channelId}">
-                <span class="blind">스트리머 채널로 이동</span>
-                <strong class="name">
-                  <span>${data.channel.channelName}</span>
-                  ${officialIcon}
-                </strong>
-              </a>`;
+      streamerName.innerHTML = `<a href="${data.channel.channelId}">
+                                <span class="blind">스트리머 채널로 이동</span>
+                                <strong class="name">
+                                  <span>${data.channel.channelName}</span>
+                                  ${officialIcon}
+                                </strong>
+                              </a>`;
     }
+    liveContent(topRecommendData[0]);
+
+    let topRecommendHtml = ``;
+    topRecommendData.forEach((el) => {
+      topRecommendHtml += `<li class="live-item" role="tabmenu">
+                <button type="button" role="tab" aria-selected="false" 
+                class="btn-tab">
+                  <div class="thumbnail" 
+                  style="background-image: url('${el.liveImageUrl}');">
+                    <span class="blind">${el.liveTitle}</span>
+                  </div>
+                </button>
+              </li>`;
+    });
+    document.querySelector(".live-list").innerHTML = topRecommendHtml;
 
     const tabBtn = document.querySelectorAll(".btn-tab");
     tabBtn[0].setAttribute("aria-selected", "true");
@@ -183,13 +173,11 @@ fetch("./assets/data/topRecommend.json")
       item.addEventListener("click", function () {
         tabBtn.forEach((tab) => tab.setAttribute("aria-selected", "false"));
         this.setAttribute("aria-selected", "true");
-        const selectedData = topRecommendData[index];
-        liveContent(selectedData);
+        liveContent(topRecommendData[index]);
       });
     });
   })
-  .catch((error) => console.error("Error topRecommend.json", error))
-;
+  .catch((error) => console.error("Error topRecommend.json", error));
 
 
 
