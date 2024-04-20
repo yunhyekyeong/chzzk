@@ -60,6 +60,15 @@ fetch("./assets/data/recommend.json")
     });
 
     toggleNav(false);
+
+    navItems.forEach((item) => {
+      item.addEventListener("mouseover", () => {
+        document.querySelector(".side-bar").classList.add("expand");
+      });
+      item.addEventListener("mouseleave", () => {
+        document.querySelector(".side-bar").classList.remove("expand");
+      });
+    });
   })
   .catch((error) => console.error("Error recommend.json", error))
 ;
