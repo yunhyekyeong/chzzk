@@ -23,7 +23,7 @@
         "paidPromotion": false,
         "chatAvailableCondition": "NONE",
         "minFollowerMinute": 0,
-        "livePlaybackJson": "https://a01-g-naver-vod.akamaized.net/glive/c/read/v2/VOD_ALPHA/glive_2024_04_16_2/0d053078-fb3b-11ee-ae9d-80615f0bcfa2.mp4?__gda__=1713444140_0555b530a7275f1623ed2a9a15561a41",
+        "livePlaybackJson": "./assets/video/video1.mp4",
         "channel": {
           "channelId": "0a1aef49164865b71039a79b7cc32da5",
           "channelName": "차가운 ONEPAGE",
@@ -59,7 +59,7 @@
         "paidPromotion": false,
         "chatAvailableCondition": "REAL_NAME",
         "minFollowerMinute": 1440,
-        "livePlaybackJson": "glive_2024_04_12_4/be0364f8-f866-11ee-af3e-a0369ffdb2c4.mp4?__gda__=1713320259_d8c4646f6032a8d669ddddce351223ca",
+        "livePlaybackJson": "./assets/video/video2.mp4",
         "channel": {
           "channelId": "b044e3a3b9259246bc92e863e7d3f3b8",
           "channelName": "시라유키 히나",
@@ -95,7 +95,7 @@
         "paidPromotion": false,
         "chatAvailableCondition": "NONE",
         "minFollowerMinute": 0,
-        "livePlaybackJson": "glive_2024_04_14_4/a31bc14d-fa65-11ee-8a03-80615f0bcbc8.mp4?__gda__=1713326959_a61a47fb41968e2ea2c4f252df395c89",
+        "livePlaybackJson": "./assets/video/video3.mp4",
         "channel": {
           "channelId": "f55fe79c18a40e8a9a735c5588f8ffe5",
           "channelName": "하윤쨩",
@@ -131,7 +131,7 @@
         "paidPromotion": false,
         "chatAvailableCondition": "NONE",
         "minFollowerMinute": 0,
-        "livePlaybackJson": "glive_2024_04_10_4/a990358e-f73d-11ee-b677-80615f0bcda6.mp4?__gda__=1713329818_dcb5450267b28b41dee60a7de7d69719",
+        "livePlaybackJson": "./assets/video/video4.mp4",
         "channel": {
           "channelId": "3deaf991918e2ddb69c9ec72d43f631e",
           "channelName": "말카디아ㅋ",
